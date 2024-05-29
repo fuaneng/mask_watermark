@@ -1,4 +1,4 @@
-去除固定水印
+基于水印蒙版去除固定水印
 
 ## 水印去除
 
@@ -21,7 +21,7 @@
 
 - 克隆项目到本地C盘
 
-      git clone https://github.com/fuaneng
+      git clone https://github.com/fuaneng/removal_watermark.git
 
 - 本项目是基于neuralgym项目而展开的图像深度学习模块，所以不支持 Tensorflow 2x version，基于neuralgym库没有更新的原因所以只能支持Tensorflow 1.15.0 version (`建议使用最新版的anaconda拉取python3.7的虚拟环境之后再进行安装以下库`).
 
@@ -34,7 +34,7 @@
 
  - 进入项目路径
 
-      cd watermark-removal
+      cd removal_watermark
 
 - 拉取 Tensorflow 1x 可以自由选择gpu版本或者cpu版本
 
