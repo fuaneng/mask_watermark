@@ -1,0 +1,15 @@
+#启动虚拟环境
+    conda activate py37env
+
+#进入项目文件夹(桌面)
+    cd C:\Users\123\Desktop\watermark-removal
+
+#单张执行
+    #old# python main.py --image C:\Users\123\Desktop\watermark-removal\inputdir\image.jpg --output C:\Users\123\Desktop\watermark-removal\outputdir\output.png --checkpoint_dir model/ --watermark_type istock
+
+    python main.py --input_dir inputdir --output_dir outputdir --checkpoint_dir model/ --watermark_type mask
+
+#批量执行
+    #old# python main_pichul.py --input_dir C:\Users\123\Desktop\watermark-removal\inputdir --output_dir C:\Users\123\Desktop\watermark-removal\outputdir --checkpoint_dir model/ --watermark_type istock
+
+    python main_pichul.py --input_dir inputdir --output_dir outputdir --checkpoint_dir model/ --watermark_type mask
