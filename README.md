@@ -29,7 +29,7 @@
 
  - 创建python虚拟依赖环境
    
-         conda create -n py311env python=3.7
+      conda create -n py311env python=3.7
 
    如果你拉取虚拟环境遇到困难也可以直接将我打包好的环境放在“C:\Users\你的电脑名字\anaconda3\envs\py37env\”内
 
