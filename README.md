@@ -25,15 +25,15 @@
 
 - 本项目是基于neuralgym项目而展开的图像深度学习模块，所以不支持 Tensorflow 2x version，基于neuralgym库没有更新的原因所以只能支持Tensorflow 1.15.0 version (`建议使用最新版的anaconda拉取python3.7的虚拟环境之后再进行安装以下库`).
  
- - 安装 [anaconda](https://www.anaconda.com/download/success)
+ - 安装 [anaconda](https://www.anaconda.com/download/success) 并运行anaconda prompt
 
  - 创建python虚拟依赖环境
    
       conda create -n py311env python=3.7
 
-   如果你拉取虚拟环境遇到困难也可以直接将我打包好的环境放在“C:\Users\你的电脑名字\anaconda3\envs”内
+   如果你拉取虚拟环境遇到困难也可以直接将我打包好的环境放在“C:\Users\你的电脑名字\anaconda3\envs\py37env\”内
 
-      下载环境包 [py37env](https://drive.google.com/file/d/1nIxLdnhY6fii0reo7PHYu2rMKX_OrFZ7/view?usp=sharing) 将其解压在\envs\py37env\
+      环境包下载请点击☛ [py37env.7z](https://drive.google.com/file/d/1nIxLdnhY6fii0reo7PHYu2rMKX_OrFZ7/view?usp=sharing) 
 
  - 进入虚拟环境虚拟依赖环境
 
@@ -50,7 +50,7 @@
       pip install tensorflow-gpu==1.15.0
       conda install tensorflow-gpu==1.15.0
 
-- 其他依赖项
+- 其他依赖项(如果你拉取了我的环境包则无需安装其他依赖项了）
 
       pip install -r requirements.txt
 
@@ -58,7 +58,7 @@
 
       pip install git+https://github.com/JiahuiYu/neuralgym
 
-- 下载预训练模型 [link](https://drive.google.com/drive/folders/1xRV4EdjJuAfsX9pQme6XeoFznKXG0ptJ?usp=sharing) 将其放在 `model/` 文件夹(如果发现模型文件带有txt后缀，请将其删除： `checkpoint.txt` → `checkpoint`)
+- 下载预训练模型 [请点击这里](https://drive.google.com/drive/folders/1Gt-jJRlqDMTLQCdzIuzlF7n_7QGkCbCd?usp=sharing) 将其放在 `model/` 文件夹
 
 执行指令
 
