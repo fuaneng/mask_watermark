@@ -2,9 +2,7 @@
 
 ## 水印去除
 
-![version](https://img.shields.io/badge/version-v1.0.0-green.svg?style=plastic)
 ![pytorch](https://img.shields.io/badge/tensorflow-v1.15.0-green.svg?style=plastic)
-![license](https://img.shields.io/badge/license-CC_BY--NC-green.svg?style=plastic)
 
 该项目是基于深度学习生成式图像修复任务，借鉴于generative_inpainting项目，[link地址为](https://github.com/JiahuiYu/generative_inpainting)
 
