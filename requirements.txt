@@ -9,7 +9,6 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 Markdown==3.4.4
 MarkupSafe==2.1.5
-neuralgym @ git+https://github.com/JiahuiYu/neuralgym@88292adb524186693a32404c0cfdc790426ea441
 numpy==1.18.5
 opencv-python==4.9.0.80
 opt-einsum==3.3.0
@@ -25,3 +24,4 @@ Werkzeug==2.2.3
 wincertstore==0.2
 wrapt==1.16.0
 zipp==3.15.0
+# neuralgym @ git+https://github.com/JiahuiYu/neuralgym@88292adb524186693a32404c0cfdc790426ea441
