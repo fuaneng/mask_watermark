@@ -17,13 +17,13 @@
 <img src="https://img2.imgtp.com/2024/05/29/P4HPNlWe.jpg" width="45%" /> <img src="https://img2.imgtp.com/2024/05/29/QRrMfUvq.jpg" width="45%" /> 
 <img src="https://img2.imgtp.com/2024/05/29/KB4tfT8p.jpg" width="45%" /> <img src="https://img2.imgtp.com/2024/05/29/JLAoHgGL.jpg" width="45%" /> 
 
-## 依赖
+## 安装依赖
 
 - 克隆项目到本地C盘
 
       git clone https://github.com/fuaneng/removal_watermark.git
 
-- 本项目是基于neuralgym项目而展开的图像深度学习模块，所以不支持 Tensorflow 2x version，基于neuralgym库没有更新的原因所以只能支持Tensorflow 1.15.0 version (`建议使用最新版的anaconda拉取python3.7的虚拟环境之后再进行安装以下库`).
+  本项目是基于neuralgym项目而展开的图像深度学习模块，所以不支持 Tensorflow 2x version，基于neuralgym库没有更新的原因所以只能支持Tensorflow 1.15.0 version (`建议使用最新版的anaconda拉取python3.7的虚拟环境之后再进行安装以下库`).
  
  - 安装 [anaconda](https://www.anaconda.com/download/success) 并运行anaconda prompt
 
@@ -43,7 +43,8 @@
 
  - 进入项目路径
 
-      cd removal_watermark
+      # 将项目放在桌面的示例指令
+      cd C:\Users\你的电脑名字\Desktop\removal_watermark
 
 - 拉取 Tensorflow 1x 可以自由选择gpu版本或者cpu版本
 
