@@ -29,13 +29,15 @@
 
  - 创建python虚拟依赖环境
 
-         conda create -n py311env python=3.7
+           conda create -n py311env python=3.7
 
    如果你拉取虚拟环境遇到困难也可以直接将我打包好的环境放在“C:\Users\你的电脑名字\anaconda3\envs\py37env\”内
 
       环境包下载请点击☛ [py37env.7z](https://drive.google.com/file/d/1nIxLdnhY6fii0reo7PHYu2rMKX_OrFZ7/view?usp=sharing)
 
-      ！注意！如果你拉取了我的环境包则无需安装其他依赖项了
+      ！注意！如果你拉取了我的环境包则无需安装其他依赖项了,将下载好的模型放入model\即可直接执行指令
+
+-------------------------------------------------------
 
  - 进入虚拟环境虚拟依赖环境
 
@@ -45,7 +47,7 @@
 
       #将项目放在桌面的示例指令
    
-      cd C:\Users\你的电脑名字\Desktop\removal_watermark
+       cd C:\Users\123\Desktop\removal_watermark
 
 - 拉取 Tensorflow 1x 可以自由选择gpu版本或者cpu版本
 
