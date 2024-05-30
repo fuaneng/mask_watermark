@@ -61,6 +61,8 @@
 - 安装 tensorflow toolkit [neuralgym](https://github.com/JiahuiYu/neuralgym).
 
       pip install git+https://github.com/JiahuiYu/neuralgym
+  
+----------------------------------------------------------------------
 
 - 下载预训练模型 [请点击这里](https://drive.google.com/drive/folders/1Gt-jJRlqDMTLQCdzIuzlF7n_7QGkCbCd?usp=sharing) 将其放在 `model/` 文件夹
 
