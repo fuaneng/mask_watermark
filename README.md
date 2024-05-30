@@ -17,7 +17,7 @@
 <img src="https://img2.imgtp.com/2024/05/29/P4HPNlWe.jpg" width="45%" /> <img src="https://img2.imgtp.com/2024/05/29/QRrMfUvq.jpg" width="45%" /> 
 <img src="https://img2.imgtp.com/2024/05/29/KB4tfT8p.jpg" width="45%" /> <img src="https://img2.imgtp.com/2024/05/29/JLAoHgGL.jpg" width="45%" /> 
 
-## 运行
+## 依赖
 
 - 克隆项目到本地C盘
 
@@ -33,7 +33,9 @@
 
    如果你拉取虚拟环境遇到困难也可以直接将我打包好的环境放在“C:\Users\你的电脑名字\anaconda3\envs\py37env\”内
 
-      环境包下载请点击☛ [py37env.7z](https://drive.google.com/file/d/1nIxLdnhY6fii0reo7PHYu2rMKX_OrFZ7/view?usp=sharing) 
+      环境包下载请点击☛ [py37env.7z](https://drive.google.com/file/d/1nIxLdnhY6fii0reo7PHYu2rMKX_OrFZ7/view?usp=sharing)
+
+      ！注意！如果你拉取了我的环境包则无需安装其他依赖项了
 
  - 进入虚拟环境虚拟依赖环境
 
@@ -50,7 +52,7 @@
       pip install tensorflow-gpu==1.15.0
       conda install tensorflow-gpu==1.15.0
 
-- 其他依赖项(如果你拉取了我的环境包则无需安装其他依赖项了）
+- 其他依赖项
 
       pip install -r requirements.txt
 
@@ -60,11 +62,13 @@
 
 - 下载预训练模型 [请点击这里](https://drive.google.com/drive/folders/1Gt-jJRlqDMTLQCdzIuzlF7n_7QGkCbCd?usp=sharing) 将其放在 `model/` 文件夹
 
-执行指令
+## 执行指令
 
 - 一切准备就绪之后你可以执行 `main.py/main_pichul.py` 脚本了
 
+      # 执行单张图片去水印
       python main.py --input_dir inputdir --output_dir outputdir --checkpoint_dir model/ --watermark_type mask
 
+      # 批量执行
       python main_pichul.py --input_dir inputdir --output_dir outputdir --checkpoint_dir model/ --watermark_type mask
 
