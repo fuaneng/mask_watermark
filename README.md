@@ -24,9 +24,16 @@
       git clone https://github.com/fuaneng/removal_watermark.git
 
 - 本项目是基于neuralgym项目而展开的图像深度学习模块，所以不支持 Tensorflow 2x version，基于neuralgym库没有更新的原因所以只能支持Tensorflow 1.15.0 version (`建议使用最新版的anaconda拉取python3.7的虚拟环境之后再进行安装以下库`).
+ 
+ - 安装 [anaconda](https://www.anaconda.com/download/success)
 
  - 创建python虚拟依赖环境
+   
       conda create -n py311env python=3.7
+
+   如果你拉取虚拟环境遇到困难也可以直接将我打包好的环境放在“C:\Users\你的电脑名字\anaconda3\envs”内
+
+      下载环境包 [py37env](https://drive.google.com/file/d/1nIxLdnhY6fii0reo7PHYu2rMKX_OrFZ7/view?usp=sharing) 将其解压在\envs\py37env\
 
  - 进入虚拟环境虚拟依赖环境
 
