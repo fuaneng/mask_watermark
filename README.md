@@ -44,6 +44,7 @@
  - 进入项目路径
 
       #将项目放在桌面的示例指令
+   
       cd C:\Users\你的电脑名字\Desktop\removal_watermark
 
 - 拉取 Tensorflow 1x 可以自由选择gpu版本或者cpu版本
