@@ -9,8 +9,9 @@
 在本项目中我借鉴了他发布深度神经网络预训练模型中有关于门控卷积构建了自由形式的图像修复模块，结合了手动绘制水印蒙版德约束方法进行了对既有水印的图像进行固定水印去除工作。
 
 ## 处理效果
-
-<img src="https://img2.imgtp.com/2024/05/29/nCg9zRI2.png" width="45%"/> <img src="https://img2.imgtp.com/2024/05/29/uTbExtzv.png" width="45%"/> 
+![7_cr](https://github.com/user-attachments/assets/649b212c-c0b4-476b-8ae1-4b1601a1cf55)
+<img s![img](https://github.com/user-attachments/assets/478c58b9-3fb3-4dcf-8cdc-7c012b910211)
+rc="https://img2.imgtp.com/2024/05/29/nCg9zRI2.png" width="45%"/> <img src="https://img2.imgtp.com/2024/05/29/uTbExtzv.png" width="45%"/> 
 <img src="https://img2.imgtp.com/2024/05/29/LVRWkwHD.png" width="45%"/> <img src="https://img2.imgtp.com/2024/05/29/YnLpyvbl.png" width="45%"/> 
 <img src="https://img2.imgtp.com/2024/05/29/P4HPNlWe.jpg" width="45%" /> <img src="https://img2.imgtp.com/2024/05/29/QRrMfUvq.jpg" width="45%" /> 
 <img src="https://img2.imgtp.com/2024/05/29/KB4tfT8p.jpg" width="45%" /> <img src="https://img2.imgtp.com/2024/05/29/JLAoHgGL.jpg" width="45%" /> 
